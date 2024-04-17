@@ -10,5 +10,5 @@ urlpatterns = [
     path('update/<int:todo_id>/', views.update, name='update'),
 
         # delete url 추가   
-	path('delete/<int:todo_id>/', views.delete, name='delete'),
+    path('delete/<int:todo_id>/', views.delete, name='delete'),
 ]
